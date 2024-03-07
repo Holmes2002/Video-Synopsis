@@ -11,5 +11,4 @@ python video_synopsis.py  --background_path background.jpg --ROOT /home1/data/co
 Attention to FPS is FPS of video input
 
 ### Experiments
-https://github.com/Holmes2002/Video-Synopsis/assets/73396391/b64c727e-69d9-4fab-ab3e-cfac424c7127
-
+Check in [this](https://youtu.be/vdHDqFTBFA8)
