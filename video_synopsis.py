@@ -606,10 +606,7 @@ def get_object_frame_and_box(args, skip_if_less_than=10):
 
 if __name__ == '__main__':
     args = parse_arguments()
-    # dict_object = get_object_frame_and_box(args)
-    with open("preprocessed_data.json", "r") as json_file:
-        dict_object = json.load(json_file)
-
+    dict_object = get_object_frame_and_box(args)
     dict_grouptube   = dict()
     for object_id in dict_object:
         dict_grouptube[object_id] = GroupTube(group_object_id = [object_id],
