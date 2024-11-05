@@ -1,4 +1,12 @@
 # Video_Synopsis
+This code is updated - Original is [NNDam](https://github.com/NNDam) and recode with paper [Surveillance video synopsis framework base on tube set](https://www.sciencedirect.com/science/article/pii/S1047320324000129)
+### Require
+You need to run Tracking first and save it in a folder. Each frame will save txt conntain Location of each obj
+```
+frame_1.jpg
+frame_1.txt
+...
+```
 
 ### Create background
 ```
